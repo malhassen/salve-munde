@@ -1,7 +1,7 @@
 class Pokemon:
     def main(self):
         pokemon = self.get_type()
-        print(f"{self.return_starter(pokemon)} is {pokemon.type} type")
+        print(f"{self.return_starter(pokemon)} is {pokemon.type} type !")
 
     def get_type(self):
         pokemon =  Pokemon()
